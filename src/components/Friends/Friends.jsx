@@ -1,6 +1,6 @@
-import friends from './friends.json'
+// import PropTypes from 'prop-types'
 
-export const Profile = () => {
+export const Friends = () => {
     return (
         <ul class="friend-list">
             <li class="item">
