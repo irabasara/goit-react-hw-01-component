@@ -1,0 +1,16 @@
+.transactionHistory {
+  padding: 20px;
+  margin: 0 auto 20px;
+  box-shadow: 2px 5px 15px 1px rgba(68, 17, 56, 0.2);
+  border-collapse: collapse;
+}
+.transactionHistory tr {
+  border: 1px solid #ccc;
+}
+.transactionHistory td,
+.transactionHistory th {
+  border: 1px solid #ccc;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}

@@ -1,0 +1,23 @@
+.statistics {
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.item {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 5px 15px 1px rgba(68, 17, 56, 0.2);
+}

@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types'
+import { BiArrowToBottom } from "react-icons/bi";
+import css from './statictic.module.css';
 
 export const Statistic = ({stats, title}) => {
     return (
-        <section className="statistics">
-            {title && <h2 className="title">{title}</h2>}
-            <ul className="stat-list">{ stats.map(({ id, label, percentage }) => (
-      <li className="item" key={id}>
+        <section className={css.statistics}>
+            {title && <h2 className={css.title}>{title}<BiArrowToBottom/></h2>}
+            <ul className={css.statList}>{ stats.map(({ id, label, percentage }) => (
+      <li className={css.item} key={id}>
             <span className="label">{label}</span>
            <span className="percentage">{percentage}</span>
       </li>
